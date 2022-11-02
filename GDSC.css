@@ -1,0 +1,346 @@
+.bod {
+    background-color:#EAEAEA;
+    margin: 0px;
+}
+
+.he {
+    background-color:#2F8F9D;
+    height:102px;
+    width: 100%;
+}
+
+.container {
+    display: flex;
+}
+
+.left {
+    display: inline-block;
+    position: absolute;
+    left: 32px;
+    top: 25px;
+}
+
+.img {
+    height: 65px;
+    width: 65px;
+    border-radius: 45px;
+}
+
+.mid {
+    /* display: block; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    /* border: 2px solid black; */
+    top: 25px;
+    left: 450px;
+
+}
+
+.co {
+    color: #3C4048;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-size-adjust: 23px;
+    text-shadow: 5px;
+    font-size: 2.5rem;
+    margin: 0;
+
+}
+
+.mid :hover {
+    color: rgb(35, 33, 33);
+}
+
+/* right ////////////////////////////////////////////////////////*/
+.right {
+    position: absolute;
+    right: 22px;
+    top: 20px;
+}
+
+.btn {
+    display: flex;
+    margin: 5px;
+    padding: 3px;
+
+}
+
+.head {
+
+    margin: 2px;
+    padding: 6px;
+    color: #3C4048;
+    border: 2px solid black;
+    background-color: #B2B2B2;
+    border-radius: 22px;
+
+}
+
+.head:hover {
+    background-color:#3C4048;
+    box-shadow: 150px;
+    margin: 3px;
+    text-shadow: 15px;
+    color: #B2B2B2;
+
+}
+
+.anc {
+    text-decoration: none;
+    margin: 4px;
+}
+
+
+/* section */
+.sect
+{
+  position: absolute;
+  top: 462px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding: 3px 45px;
+}
+.sech
+{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+
+}
+
+
+/* images */
+.head3{
+    position: relative;
+    display: block;
+    height: 700px;
+}
+
+.lang1{
+    text-align: center;
+    position: absolute;
+    width: 1400px;
+    height: 600px;
+    top: 50px;
+    left: 0;
+    right: 0;
+    margin: 0px auto;
+    /* border: 3px solid black; */
+    border-radius: 15px;
+    box-shadow: 5px 5px 10px 5px grey;
+}
+
+.lang1 h2{
+    font-size: 40px;
+    margin: 0px;
+    margin-top: 20px;
+}
+
+.types{
+    width: 100px;
+    display: inline-block;
+    margin: 0 60px 0 60px;
+}
+
+.types img{
+    width: 100px;
+}
+
+.types p{
+    font-weight: 700;
+    font-size: 26px;
+}
+
+.top{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+
+.simg
+{
+    /* position: absolute;
+    top: 548px;
+    right: 35px;
+    left: 75px; */
+
+    height: 550px;
+}
+.im
+{
+    height: 148px;
+    width: 148px;
+    padding:12px;
+    margin: 12px;
+}
+#python
+{
+    position: relative;
+    left: 115px;
+    top: 50px;
+}
+#css
+{
+    position: relative;
+    left: 200px;
+    top: 50px;
+}
+#html
+{
+    position: relative;
+    left: 248px;
+    top: 50px;
+}
+#c{
+    position: relative;
+    left: 301px;
+    top: 65px;
+}
+
+#js
+{
+    position: relative;
+    left: -227px;
+    top: 267px;
+}
+#php
+{
+    position: relative;
+    left: 333px;
+    top:66px;
+    
+
+}
+.html
+{
+    width: 25px;   
+}
+#html
+{
+    width: 160px;   
+}
+#js
+{
+    width: 253px;   
+}
+#php
+{
+    width: 147px;   
+}
+/* video hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh*/
+.iframe-container
+{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: baseline;
+    width: 800px;
+    /* bottom: 30px; */
+    /* padding-bottom: 10%; */
+    /* height: 200px; */
+    left: 50%;
+    top: 50%;
+}
+
+.iframe-container iframe
+{
+    
+    position: relative;
+    top: 18px;
+    right: 33%;
+    width: 36rem;
+    height: 20rem;
+    margin: 20px;
+}
+
+#iframh
+{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+    top: 14px;
+    left: 40px;
+    color: rgb(4, 97, 137);
+}
+
+/* hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh */
+
+.webdev
+{
+    position: relative;
+    top: 850px;
+    left: 10%;
+}
+.giphy-embed
+{
+    width: 728px;
+    height: 200px;
+}
+/* css///////////////////////// */
+.css
+{
+    position: relative;
+    top: 858px;
+    left: 61px;
+}
+.giphy-container
+{
+    position: relative;
+    top: 60px;
+    left: 40px;
+}
+
+.giphy
+{
+    position: relative;
+    top: 58px;
+    height: 222px;
+    left: 40%;
+}
+
+
+/* hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh */
+/* footer */
+.footer
+{
+    border: 2px solid black;
+    position: relative;
+    top: 90px;
+    display:flex ;
+}
+.foot
+{
+    margin: 4px;
+    padding: 3px;
+    color: #3C4048;
+}
+
+footer{
+    height: 100px;
+    margin-left: 500px;
+}
+
+footer a{
+    display: inline-block;
+    margin: 0px 30px;
+    text-decoration: none;
+    color: black;
+    font-size: 1.1rem;
+}
+
+#about
+{
+
+}
+#contact
+{
+
+}
+#privacy
+{
+
+}
