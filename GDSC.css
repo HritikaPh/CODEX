@@ -166,8 +166,9 @@
     top: 548px;
     right: 35px;
     left: 75px; */
-
     height: 550px;
+    position: relative;
+    left: 105px;
 }
 .im
 {
@@ -209,8 +210,8 @@
 #php
 {
     position: relative;
-    left: 333px;
-    top:66px;
+    left: -786px;
+    top:243px;
     
 
 }
@@ -228,7 +229,8 @@
 }
 #php
 {
-    width: 147px;   
+    width: 170px;
+    height: 110px;   
 }
 /* video hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh*/
 .iframe-container
@@ -241,8 +243,8 @@
     /* bottom: 30px; */
     /* padding-bottom: 10%; */
     /* height: 200px; */
-    left: 50%;
-    top: 50%;
+    left: 48%;
+    top: 53%;
 }
 
 .iframe-container iframe
@@ -332,15 +334,3 @@ footer a{
     font-size: 1.1rem;
 }
 
-#about
-{
-
-}
-#contact
-{
-
-}
-#privacy
-{
-
-}
